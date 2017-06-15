@@ -19,7 +19,6 @@ contract SimpleStorage
   function change_value(string value){
     current_value = value;
     last_changed_by = msg.sender;
-    return true;
   }
 
   // return current value
